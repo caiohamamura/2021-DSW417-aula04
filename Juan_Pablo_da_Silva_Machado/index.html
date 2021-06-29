@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Aula 03</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+
+<body>
+    <div>
+        <label for="nota1">Primeira nota:</label>
+        <input type="number" id="nota1" min=0 max=10 step=0.1> 
+    </div>
+    <div>
+        <label for="nota2">Segunda nota:</label>
+        <input type="number" id="nota2" min=0 max=10 step=0.1> 
+    </div>
+    <div></div>
+        <label for="nota3">Terceira nota:</label>
+        <input type="number" id="nota3" min=0 max=10 step=0.1> 
+    </div>
+    <div>
+        <label for="nota4">Quarta nota:</label>
+        <input type="number" id="nota4" min=0 max=10 step=0.1> 
+    </div>
+
+    <button onclick="calcularMedia()">Calcule a média final</button>
+    <br><br>
+    <div>Resultado: </div>
+    <div id="meu-div"></div>
+    <script src="principal.js"></script>
+</body>
+
+</html>

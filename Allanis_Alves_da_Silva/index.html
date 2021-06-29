@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <label>Cálculo de média final</label>
+  <div>
+
+    <label><br>Insira a primeira nota:<br>
+    <!-- CAMPO TIPO NUMBER -->
+      <input type="number" id="n1" min=0 max=10  step=0.1>
+    </label>
+  </div>
+
+
+  <div>
+    <label>Insira a segunda nota:<br>
+        <!-- CAMPO TIPO NUMBER -->
+      <input type="number" id="n2" min=0 max=10 step=0.1>
+    </label>
+  </div>
+
+<div>
+    <label>Insira a terceira nota:<br>
+        <!-- CAMPO TIPO NUMBER -->
+      <input type="number" id="n3" min=0 max=10 step=0.1>
+    </label>
+  </div>
+
+<div>
+    <label>Insira a quarta nota:<br>
+        <!-- CAMPO TIPO NUMBER -->
+      <input type="number" id="n4" min=0 max=10 step=0.1>
+    </label>
+  </div>
+
+
+    <!-- BUTTON PARA EFETUAR O CÁLCULO -->
+  <button onclick="calcMedia()">Calcular média final</button>  	
+
+
+<!-- DIV VAZIA PARA RESULTADO APRO/REPRO -->
+  <div id="meu-div"></div>
+
+
+<!-- DIV VAZIA DE AVISO PARA CASO DE INSERÇÃO DE NÚMERO INVÁLIDO (<0 OU >10)  -->
+  <div id="meuDiv2"></div>
+  
+  <script src="script.js">	</script>
+
+
+</html>

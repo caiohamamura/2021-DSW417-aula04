@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade (18.05.2021)</title>
+    <!-- Conectar o HTML com o arquivo de CSS. -->
+    <link rel="stylesheet" href="principal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="alinhamento">
+        <div id="divMensagem">
+            <h1 id="mensagem">Avalie o seu rendimento escolar</h1>
+            <div>
+                <div>
+                    <label for="nota1">Digite a primeira nota:</label>
+                    <div>
+                        <input type="number" id="nota1">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="nota2">Digite a segunda nota:</label>
+                    <div>
+                        <input type="number" id="nota2">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="nota3">Digite a terceira nota:</label>
+                    <div>
+                        <input type="number" id="nota3">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="nota4">Digite a quarta nota:</label>
+                    <div>
+                        <input type="number" id="nota4">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button class="botão" onclick="calculoMedia()">Calcular</button>
+            </div>
+            <br>
+            <h1 id="mensagem2"></h1>
+        </div>
+    </div>
+
+
+
+    <!-- Conectar o HTML com o arquivo de JS. -->
+    <script src="principal.js"></script>
+</body>
+
+</html>

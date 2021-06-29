@@ -1,0 +1,21 @@
+#titulo {
+    margin-top: 3em;
+    margin-left: 17em;
+    color: tomato;
+}
+
+#quadro {
+    margin-left: 28em;
+    margin-top: 2em;
+    position: absolute;
+    background-color: rgb(255, 235, 193);
+}
+
+#botao {
+    margin-left: 10em;
+}
+
+#resultado {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}

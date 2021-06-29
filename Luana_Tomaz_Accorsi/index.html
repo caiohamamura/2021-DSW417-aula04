@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Aula 03</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+
+<body>
+    <!-- Bem-vindo(a) -->
+    <div>Seja bem-vindo(a)! Vamos ver a situação da sua aprovação?: </div>
+    <div>
+        <!-- inserindo as notas de cada bimestre -->
+        <label for="bimestre1">Insira a nota referente ao primeiro bimestre:</label>
+        <input type="number" id="bimestre1">
+    </div>
+    <div>
+        <label for="bimestre2">Insira a nota referente ao segundo bimestre:</label>
+        <input type="number" id="bimestre2">
+    </div>
+    <div>
+        <label for="bimestre3">Insira a nota referente ao terceiro bimestre:</label>
+        <input type="number" id="bimestre3">
+    </div>
+    <div>
+        <label for="bimestre4">Insira a nota referente ao quarto bimestre:</label>
+        <input type="number" id="bimestre4">
+    </div>
+    <!-- chamando a função para cálculo de média e verificação de aprovação -->
+    <button onclick="MediaAnualResultado()">Clique aqui para calcular a média de suas média anual e verificar se foi aprovado(a)!</button>
+    <br><br>
+    <!-- exibição dos resultados -->
+    <div>Resultado média anual: </div>
+    <div id="meu-div"></div>
+    <div>Resultado aprovação: </div>
+    <div id="resultado"></div>
+    <script src="principal.js"></script>
+</body>
+
+</html>

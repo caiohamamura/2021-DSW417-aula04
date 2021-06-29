@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Média</title>
+  <html>
+  <head>
+    <title>Meu Formulário Personalizado</title>
+    <link rel="stylesheet" type="text/css" href="principal.css">
+  
+</head>
+<body>
+  <div id="area">
+    <label>Digite a nota da primeira avaliação:
+      <input type="number" id="nota1" min=0 max=10 step=0.1>
+    </label>
+  </div>
+  <div id="area">
+    <label>Digite a nota da segunda avaliação: 
+      <input type="number" id="nota2" min=0 max=10 step=0.1>
+    </label>
+  </div>
+  <div id="area">
+    <label>Digite a nota da terceira avaliação:   
+      <input type="number" id="nota3" min=0 max=10 step=0.1>
+    </label>
+  </div>
+  <div id="area">
+    <label>Digite a nota da quarta avaliação:    
+      <input type="number" id="nota4" min=0 max=10 step=0.1>
+    </label>
+  </div>
+  <button id="botao" onclick="Media()">Calcular a média do bimestre</button>
+  <br><br>
+  <div>Resultado: </div>
+  <div id="div"></div>
+  <div id="div2"></div>
+  <script type="text/javascript" src="principal.js"></script>
+</body>

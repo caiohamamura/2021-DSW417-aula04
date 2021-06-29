@@ -1,0 +1,11 @@
+/* configuração div média*/
+#meu-div {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* configuração div aprovado/reprovado */
+#meu-div2 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}

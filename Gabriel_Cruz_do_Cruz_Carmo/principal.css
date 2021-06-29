@@ -1,0 +1,17 @@
+#area
+{
+    
+
+      height:50px;
+    
+}
+
+#botao {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
